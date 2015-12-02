@@ -1,7 +1,7 @@
 Transition to erlang v18 for erlang:now()
 =========================================
 
-Example of a module using the macro provided by now()
+Example of a module using the macro provided
 
     defmodule MyModule do
        require Now
@@ -13,9 +13,9 @@ Example of a module using the macro provided by now()
     end
 
 
-`Now.timestamp` macro for `:erlang.timestamp` in v18 and `:erlang.now` before
+  * `Now.timestamp` -> `:erlang.timestamp` in v18 and `:erlang.now` before
 
-`Now.system_time` macro for `:erlang.system_time` in v18 and a conversion of the triple tuple of `:erlang.now` converted in ms.
+  * `Now.system_time` -> `:erlang.system_time` in v18 and a conversion of the triple tuple of `:erlang.now` converted in ms.
 
 Warning: although `:erlang.timestamp` has the same format as ':erlang.now'
 
