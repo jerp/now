@@ -17,7 +17,7 @@ Example of a module using the macro provided
 
   * `Now.system_time` -> `:erlang.system_time` in v18 and a conversion of the triple tuple of `:erlang.now` converted in ms.
 
-Warning: although `:erlang.timestamp` has the same format as ':erlang.now'
+Warning: although `:erlang.timestamp` has the same format as `:erlang.now` it is not equivalent, see [Find out more](#find-out-more)
 
 Rationale
 ---------
